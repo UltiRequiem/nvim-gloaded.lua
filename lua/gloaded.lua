@@ -1,4 +1,4 @@
-function disable_defaults_plugins()
+local function disable_defaults_plugins()
   vim.g.loaded_tutor = 1
   vim.g.loaded_spec = 1
   vim.g.loaded_2html_plugin      = 1 
@@ -24,3 +24,5 @@ function disable_defaults_plugins()
   vim.g.loaded_zipPlugin         = 1 
   vim.g.vimsyn_embed             = 1 
 end
+
+return {disable_defaults_plugins = disable_defaults_plugins}
