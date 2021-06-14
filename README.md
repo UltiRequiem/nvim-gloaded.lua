@@ -1,5 +1,7 @@
 # vim-gloaded.lua
 
+Disable default Neovim plugins contained in $VIMRUNTIME
+
 ## Installation
 
 Install like any other Plugin:
